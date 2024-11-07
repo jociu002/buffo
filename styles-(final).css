@@ -1,0 +1,568 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.font.family {
+
+    font-family: "buffo", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+     font-family: "buffo", sans-serif;
+     font-weight: 100;
+     font-style: italic;
+
+        font-family: "buffo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+            font-family: "buffo", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+
+                font-family:"buffo", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+
+                    font-family: "buffo", sans-serif;
+                     font-weight: 700;
+                    font-style: italic;
+
+                        font-family: "buffo-hairline", sans-serif;
+                        font-weight: 100;
+                        font-style: normal;
+
+                            font-family: "buffo-hairline", sans-serif;
+                            font-weight: 100;
+                            font-style: italic;
+
+
+}
+
+
+.Nav-bar{
+ font-family: "buffo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+font-size: 100px;
+
+position: fixed;
+
+
+top:0;
+width: 100%; 
+
+
+
+}
+
+.Nav-bar ul {
+    list-style-type:none;
+    margin: 0;
+    width: 10000px;
+    text-size-adjust: 30px;
+    padding: 30px;
+    overflow: hidden;
+    background-color: #d2d67e;
+}
+
+.Nav-bar li {
+    float: left;
+}
+
+.Nav-bar li a  {
+    display: block;
+    color: white;
+    text-align: center;
+
+    padding: 100px 200px;
+    text-decoration: none;
+}
+
+.Nav-bar li a:hover {
+    background-color: #c29311;
+}
+
+
+
+
+
+.background-color{
+    background-color:rgb(142, 161, 115);
+    margin: -200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.test{
+    margin: 0;
+}
+
+
+   
+    
+    
+  
+
+     
+
+
+.Buffo{
+    font-family:"buffo", sans-serif;
+    font-size: 900pt;
+    font-weight: 1000;
+     font-style: normal;
+     color: rgb(116, 205, 175);
+     text-shadow: -50px 50px rgb(38, 108, 102);
+     padding-top: 100px 0px;
+     margin:200px;
+     text-align:center;
+     
+     box-sizing: content-box;
+
+     margin-top: 400pt;
+     box-align: center;
+     width: 1000;
+     height:1200px;
+     padding: 50px;
+     background-color: rgb(126, 67, 25);
+     box-shadow: -50px 50px rgb(175, 93, 17);
+ 
+
+
+}
+
+.grid-container1{
+    display:grid;
+    grid-template-columns: auto;
+    justify-content:space-between;
+    
+    
+    
+    
+ }
+
+
+
+
+
+.introduction{
+    font-family:"buffo", sans-serif;
+    font-weight: 700;
+    font-size: 100pt;
+    font-style: normal;
+    color:rgb(175, 93, 17);
+padding: 1em;
+
+    box-align: left;
+      width:fit-content;
+      background-color: beige;
+      margin: 200px;
+      box-shadow: 50px -50px rgb(215, 151, 95);
+    
+   
+}
+.buffo-intro-text{
+    font-family:"buffo", sans-serif;
+    font-weight: 700pt;
+    font-size: 200pt;
+    font-style: normal;
+    color:rgb(243, 187, 139);
+text-align:center;
+text-decoration: underline;
+text-shadow: 20px -20px rgb(175, 93, 17);
+box-sizing: content-box;
+background-color: rgb(142, 161, 115);
+margin: 100px 100px;
+padding-top: 10px;
+box-shadow: -50px -50px  rgb(154, 215, 163);
+
+}
+
+
+
+.intro-paragraph{
+    font-family:"buffo", sans-serif;
+    font-weight: 700;
+    font-size: 100pt;
+    font-style: normal;
+    color:rgb(175, 93, 17);
+text-align: left;
+
+
+
+}
+
+
+
+
+
+
+.typeface-display{
+    font-family:"buffo", sans-serif;
+    font-weight: 700;
+    font-size: 80pt;
+    font-style: italic;
+    text-align: center;
+    
+    
+    
+
+    color: rgb(215, 246, 219);
+
+    box-sizing: content-box;
+    width: fit-content;
+    background-color: rgb(27, 55, 43);
+    margin: 500px;
+    padding:30px;
+    box-shadow: -30px -60px;
+    background-color: rgb(79, 147, 124);
+    padding: 20px;
+    
+}
+
+
+.Display-Buffo{
+    text-decoration: underline;
+    
+}
+
+
+.typefaces{
+column-count: 3;
+text-align: justify;
+text-align: center;
+}
+
+.typeface-1{
+    font-family: "buffo", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.typeface-2{
+    font-family: "buffo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
+
+
+
+}
+
+.typeface-3{
+    font-family: "buffo", sans-serif;
+    font-weight: 200pt;
+    font-size: 100px;
+    font-style:normal;
+
+}
+
+.display-capabilities{
+    font-family:"buffo", sans-serif;
+    font-weight: 800;
+    font-size: 300pt;
+    font-style: normal;
+box-sizing: content-box;
+
+box-shadow: 80px -50px  rgb(71, 93, 39);
+background-color: rgb(231, 243, 214);
+margin: 250px;
+padding: 50px;
+
+   
+position: relative;
+
+  
+
+}
+
+.Ambidextrous{
+    font-family:"buffo", sans-serif;
+    font-weight: 800;
+    font-size: 500pt;
+    font-style: italic;
+    color: rgb(88, 26, 26);
+    
+    position: absolute;
+    top:1800px;
+    left:600px;
+    right:0px;
+    bottom:0px;
+
+    
+    
+   
+   
+   
+    text-shadow: -30px 30px rgb(175, 93, 17);
+
+
+
+}
+
+.Demographics{
+
+    font-family: "buffo", sans-serif;
+    font-weight: 400;
+    font-size: 200pt;
+    margin: 0%;
+    font-style: normal;
+    color: rgb(27, 55, 43);
+    text-align: right;
+writing-mode: vertical-lr;
+text-orientation: upright;
+right:100px;
+
+
+    text-shadow: -30px 30px rgb(137, 192, 144);
+
+
+
+}
+
+.Outsparkling{
+    font-family: "buffo", sans-serif;
+    font-weight: 400;
+                font-style: normal;
+    font-size: 650pt;
+    color: rgb(175, 93, 17);
+    text-shadow: -30px 30px rgb(215, 151, 95);
+    position: absolute;
+    right:0px;
+    top:150px;
+    display: inline-block;
+    transform: rotate(-20deg);
+
+
+}
+
+.Subnormality{
+
+    font-family: "buffo", sans-serif;
+    font-weight: 700;
+   font-style: italic;
+   font-size: 500pt;
+   text-align: center;
+   color:rgb(116, 205, 175);
+   text-shadow:-30px 30px rgb(38, 108, 102);
+   position: absolute;
+   top:-700px;
+   right:400px;
+
+
+}
+
+
+
+
+.buffo-action{
+    text-align: center;
+    font-family:"buffo", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+font-size: 400pt;
+color: rgb(79, 147, 124);
+box-sizing: content-box;
+background-color: rgb(215, 246, 219);
+
+text-shadow: -30px 30px rgb(24, 88, 83);
+     padding-top: 100px 100px;
+     text-align:center;
+    
+    margin:150pt;
+     box-align: center;
+     width: 100;
+     height:600px;
+     padding: 200px;
+     box-shadow: 80px -80px;
+     background-color: rgb(215, 246, 219);
+     margin: 500px;
+}
+
+
+
+
+
+
+
+.paragraph-1{
+    font-family: "buffo", sans-serif;
+    font-weight: 100pt;
+    font-size: 50pt;
+    font-style: normal;
+    color: white;
+
+    box-sizing: content-box;
+    width: fit-content;
+    background-color: rgb(165, 99, 42);
+    padding: 30px;
+    margin:500px ;
+    box-shadow: -50px 50px rgb(235, 175, 123);
+    
+    
+}
+
+.paragraph-2{
+    font-family: "buffo", sans-serif;
+    font-weight: 100pt;
+    font-size: 80pt;
+    font-style: italic;
+    color: white;
+
+    box-sizing: content-box;
+    width: fit-content;
+    background-color: rgb(100, 141, 105);
+    padding: 30px;
+    margin: 200px;
+    box-shadow: 100px -200px rgb(38, 108, 102);
+}
+
+.paragraph-3{
+    font-family:"buffo", sans-serif;
+    font-weight: 700;
+    font-size: 100pt;
+    font-style: normal;
+    color: white;
+
+    box-sizing: content-box;
+    width: fit-content;
+    background-color: rgb(150, 139, 84);
+    padding: 50px;
+    margin: 200px;
+    box-shadow: -100px 100px rgb(240, 220, 122);
+}
+
+
+.experiments-title{
+    text-align: center;
+    font-family:"buffo", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+font-size: 300pt;
+color: rgb(240, 220, 122);
+text-shadow: -20px 20px rgb(165, 99, 42);
+
+box-sizing: content-box;
+background-color: rgb(164, 201, 151);
+margin:500px;
+box-shadow: -50px -100px rgb(78, 138, 118);
+
+
+}
+
+
+.panagrams{
+columns: 2;
+align-content:first baseline;
+
+}
+
+.pan-1{
+    font-family:"buffo", sans-serif;
+    font-weight: 700;
+    font-size: 200pt;
+    font-style: normal;
+    color: rgb(20, 59, 56);
+    box-sizing: content-box;
+    background-color: rgb(210, 235, 200);
+    margin:100px;
+    padding:10px;
+    box-shadow: -50px -50px rgb(100, 141, 105);
+    
+    text-align: center;
+
+}
+
+.pan-2{
+    font-family: "buffo", sans-serif;
+    font-weight: 400;
+
+                font-style: italic;
+                font-size:200pt;
+    color: rgb(71, 42, 21);
+box-sizing: content-box;
+background-color: rgb(221, 200, 178);
+margin:300px;
+padding:10px;
+box-shadow: -50px -50px rgb(180, 90, 25);
+
+text-align: center;
+}
+
+.pan-1-color{
+    color:rgb(20, 59, 56);
+    margin: 50px;
+}
+
+
+.pan-2-color{
+
+    color: rgb(71, 42, 21);
+    margin:50px;
+}
+a:hover span{
+    color:rgb(165, 99, 42);
+    text-shadow: -10px 10px rgb(240, 220, 122);
+}
+
+.moving-text{
+    text-align: center;
+    font-family:"buffo", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+font-size: 300pt;
+color:rgb(11, 22, 18);
+text-shadow: -20px 20px rgb(134, 197, 176);
+margin: 100px;
+box-sizing: content-box;
+
+background-color: rgb(38, 108, 102);
+box-shadow: -20px 50px rgb(20, 59, 56);
+
+
+
+
+
+
+
+    .scrolling-text {
+        display: inline-block;
+        white-space: nowrap;
+        animation: scroll 5s linear infinite;
+    }
+
+    @keyframes scroll {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+}
+
+.footer {
+    font-family: "buffo", sans-serif;
+    font-weight: 400;
+                font-style: normal;
+    font-size:300px;
+    color: rgb(224, 184, 149);
+    text-shadow: 10px -10px  rgb(165, 99, 42);
+    box-sizing: content-box;
+    text-align: center;
+    background-color: rgb(126, 67, 25);
+margin: 200px;
+box-shadow: 30px -30px rgb(165, 99, 42);
+    }
